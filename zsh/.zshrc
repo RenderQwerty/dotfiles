@@ -10,4 +10,5 @@ alias vstat='vagrant status'
 alias vdest='vagrant destroy -f'
 alias vssh='vagrant ssh'
 alias vup='vagrant up'
-
+alias val="vagrant validate"
+alias szsh="source ~/.zshrc"
