@@ -5,3 +5,9 @@ plugins=(git wd dnf dotenv docker docker-compose helm ssh-agent sudo vagrant com
 
 source $ZSH/oh-my-zsh.sh
 alias gt='git status'
+alias gl='git log'
+alias vstat='vagrant status'
+alias vdest='vagrant destroy -f'
+alias vssh='vagrant ssh'
+alias vup='vagrant up'
+
