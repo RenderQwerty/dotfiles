@@ -12,3 +12,4 @@ alias vssh='vagrant ssh'
 alias vup='vagrant up'
 alias val="vagrant validate"
 alias szsh="source ~/.zshrc"
+alias sudo='sudo '
