@@ -200,6 +200,4 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/wp.jpg
 exec --no-startup-id slack start
 exec --no-startup-id telegram-desktop start 
 
-exec "setxkbmap -layout us,ru"
-exec "setxkbmap -option 'grp:alt_shift_toggle'"
-exec compton -f
+exec --no-startup-id setxkbmap us,ru -option 'grp:alt_shift_toggle'
