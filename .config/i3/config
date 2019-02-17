@@ -202,7 +202,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 
 bar {
-    status_command /home/jaels/.config/bumblebee-status/bumblebee-status -p time.format="%H:%M" -m uptime dnf brightness pasink battery datetime -t solarized
+    status_command /home/jaels/.config/bumblebee-status/bumblebee-status -p time.format="%H:%M" -m uptime brightness pasink battery datetime -t solarized
     position bottom
 }
 
