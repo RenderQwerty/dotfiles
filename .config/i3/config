@@ -7,7 +7,7 @@ floating_modifier $mod
 bindsym $mod+Return exec termite
 bindsym $mod+Shift+q kill
 
-bindsym $mod+d exec rofi -combi-modi window#ssh#drun -theme Adapta-Nokto -font "hack 10" -show combi -terminal
+bindsym $mod+d exec rofi -combi-modi window#drun -theme Adapta-Nokto -font "hack 10" -show combi -terminal termite
 
 # change focus
 bindsym $mod+j focus left
