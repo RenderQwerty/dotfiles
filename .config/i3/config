@@ -202,12 +202,13 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 
 bar {
-    status_command /home/jaels/.config/bumblebee-status/bumblebee-status -p time.format="%H:%M" -m uptime brightness pasink battery datetime -t solarized
+   #status_command /home/jaels/.config/bumblebee-status/bumblebee-status -p time.format="%H:%M" -m uptime brightness pasink battery datetime -t solarized
+    status_command xfce4-panel
     position bottom
 }
 
 hide_edge_borders both
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wp.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/wp.jpg
 exec --no-startup-id slack start
 exec --no-startup-id telegram-desktop start 
 
