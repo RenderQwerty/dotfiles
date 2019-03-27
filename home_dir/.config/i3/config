@@ -223,7 +223,7 @@ exec --no-startup-id slack start
 exec --no-startup-id telegram-desktop start 
 
 exec --no-startup-id setxkbmap us,ru -option 'grp:alt_shift_toggle'
-
+exec --no-startup-id dunst -config /home/jaels/.config/dunst/config
 # lock after 10m timeout
 exec --no-startup-id xset dpms 600
 
