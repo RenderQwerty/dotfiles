@@ -1,5 +1,5 @@
 set $mod Mod4
-set $Locker i3lock && sleep 1
+set $Locker /home/jaels/.dotfiles/home_dir/i3lock.sh && sleep 1
 font pango:Sans 9
 set $editor termite
 floating_modifier $mod
